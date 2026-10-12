@@ -37,3 +37,7 @@ Bu örnekte `code/`, 59. bölüm sonunda değişen dosyaların son hâlini göst
 Bir bölüm klasöründeki `code/` her zaman tek başına çalıştırılabilir tam proje değildir; çoğu bölüm yalnızca o bölümde değişen dosyaları içerir. Kitabın sonunda, 70. bölümde `code/movie-api/` altında final proje hâli bulunur.
 
 Gerçek `.env` dosyaları ve `node_modules` repository'ye eklenmez. Gerekli yerlerde `.env.example` kullanılır.
+
+## 67. Bölüm — Postman kontrol kopyası
+
+Kitapta birlikte oluşturulan Collection ve yerel Environment'ın örnek JSON dosyaları, `08_Test_Documentation_Deployment/67_Postman_Collection_Environment_ve_Tests_ile_API_Nasil_Kontrol_Edilir/postman/` klasöründedir. Bunlar **opsiyoneldir**; okuyucu önce testleri kitapla kurabilir. **Yalnızca ayrı test veritabanında kullanın** (POST/PATCH/DELETE veriyi değiştirir).

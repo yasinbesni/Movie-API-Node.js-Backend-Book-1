@@ -1,0 +1,344 @@
+{
+  "info": {
+    "name": "Movie API — Kitap 67. Bölüm",
+    "description": "Backend Book 1, 67. bölümdeki CRUD kontrol sırası. Yalnızca kendi yerel test sunucunuzda ve test veritabanınızda kullanın; kayıt oluşturur, günceller ve siler. İlk olarak POST Movie ile oluşturulan film kimliği sonraki isteklerde kullanılır.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "GET Movies",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/movies",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "movies"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(",
+              "  \"GET Movies 200 olmali\",",
+              "  function () {",
+              "    pm.response.to.have.status(200);",
+              "  },",
+              ");",
+              "",
+              "pm.test(",
+              "  \"Film listesi Array olmali\",",
+              "  function () {",
+              "    const body = pm.response.json();",
+              "    pm.expect(body.data).to.be.an(\"array\");",
+              "  },",
+              ");"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "POST Movie",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/movies",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "movies"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"Postman Test {{$randomUUID}}\",\n  \"releaseYear\": 2024,\n  \"voteAverage\": 8.4\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "// Eski çalıştırmadan kalan kimliğin yanlışlıkla kullanılmasını önle.",
+              "pm.collectionVariables.unset(\"movieId\");"
+            ]
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(",
+              "  \"Film 201 ile oluşturulmalı\",",
+              "  function () {",
+              "    pm.response.to.have.status(201);",
+              "  },",
+              ");",
+              "",
+              "const body = pm.response.json();",
+              "pm.collectionVariables.set(\"movieId\", body.data._id);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GET Movie By Id",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/movies/{{movieId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "movies",
+            "{{movieId}}"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(",
+              "  \"Film 200 ile gelmeli\",",
+              "  function () {",
+              "    pm.response.to.have.status(200);",
+              "  },",
+              ");",
+              "",
+              "pm.test(",
+              "  \"Dönen id oluşturulan filmle aynı olmalı\",",
+              "  function () {",
+              "    const body = pm.response.json();",
+              "    const movieId = pm.collectionVariables.get(\"movieId\");",
+              "    pm.expect(body.data._id).to.eql(movieId);",
+              "  },",
+              ");"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "PATCH Movie",
+      "request": {
+        "method": "PATCH",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/movies/{{movieId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "movies",
+            "{{movieId}}"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"voteAverage\": 9.1\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(",
+              "  \"Film 200 ile güncellenmeli\",",
+              "  function () {",
+              "    pm.response.to.have.status(200);",
+              "  },",
+              ");",
+              "",
+              "pm.test(",
+              "  \"voteAverage 9.1 olmalı\",",
+              "  function () {",
+              "    const body = pm.response.json();",
+              "    pm.expect(body.data.voteAverage).to.eql(9.1);",
+              "  },",
+              ");"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "POST Movie - Invalid Body",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json",
+            "type": "text"
+          }
+        ],
+        "url": {
+          "raw": "{{baseUrl}}/movies",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "movies"
+          ]
+        },
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"title\": \"   \",\n  \"releaseYear\": \"2024\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(",
+              "  \"Geçersiz Body 400 dönmeli\",",
+              "  function () {",
+              "    pm.response.to.have.status(400);",
+              "  },",
+              ");",
+              "",
+              "pm.test(",
+              "  \"Validation errors boş olmamalı\",",
+              "  function () {",
+              "    const body = pm.response.json();",
+              "    pm.expect(body.errors).to.be.an(\"array\").that.is.not.empty;",
+              "  },",
+              ");"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "DELETE Movie",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/movies/{{movieId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "movies",
+            "{{movieId}}"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(",
+              "  \"Film 200 ile silinmeli\",",
+              "  function () {",
+              "    pm.response.to.have.status(200);",
+              "  },",
+              ");",
+              "",
+              "pm.test(",
+              "  \"Silinen film doğru idye sahip olmalı\",",
+              "  function () {",
+              "    const body = pm.response.json();",
+              "    const movieId = pm.collectionVariables.get(\"movieId\");",
+              "    pm.expect(body.data._id).to.eql(movieId);",
+              "  },",
+              ");"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "GET Movie By Id - After Delete",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/movies/{{movieId}}",
+          "host": [
+            "{{baseUrl}}"
+          ],
+          "path": [
+            "movies",
+            "{{movieId}}"
+          ]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(",
+              "  \"Silinen film 404 ile bulunamamalı\",",
+              "  function () {",
+              "    pm.response.to.have.status(404);",
+              "  },",
+              ");"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "variable": [
+    {
+      "key": "movieId",
+      "value": "",
+      "type": "string"
+    }
+  ]
+}
