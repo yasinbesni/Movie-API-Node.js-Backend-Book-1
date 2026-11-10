@@ -9,3 +9,7 @@ Bölümü kitaptaki anlatım ve uygulamalar üzerinden takip etmeniz yeterlidir.
 ## İsteğe bağlı Postman dosyaları
 
 Kitapta oluşturulan Collection ve yerel Environment örneklerini karşılaştırmak için [`postman/`](postman/) klasörünü kullanabilirsiniz. Dosyalar yalnızca ayrı bir **test veritabanıyla** çalıştırılmalıdır; veri değiştiren istekler içerir.
+
+## Ortam ayarları
+
+`code/example.env` bu bölümün çalışma kopyası için örnektir. Dosyayı uygulamanızdaki `package.json` dosyasının yanına `.env` adıyla kopyalayın. Bu klasörde yalnız değişen dosyalar varsa onları mevcut projenize uygulayın; parçaları tek başına başlatmayın.

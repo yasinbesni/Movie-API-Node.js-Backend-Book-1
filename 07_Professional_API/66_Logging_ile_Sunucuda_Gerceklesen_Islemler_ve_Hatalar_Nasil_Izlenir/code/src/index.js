@@ -18,6 +18,7 @@ const startServer = async () => {
       { err: error },
       "Uygulama başlatılamadı.",
     );
+    process.exitCode = 1;
   }
 };
 

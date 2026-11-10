@@ -1,43 +1,31 @@
-# Backend Book — Movie API Kodları
+# Node.js ile Backend Geliştirme: Temelden Gerçek Bir API'ye
 
-Bu repository, backend kitabını okurken bölüm sonundaki kod durumunu hızlıca kontrol edebilmeniz için hazırlanmıştır.
+## 1. Kitap — Movie API kodları
 
-## Nasıl Kullanılır?
+Resmî depo: https://github.com/yasinbesni/Movie-API-Node.js-Backend-Book-1
 
-1. Kitaptaki bölümü okuyun ve kodu önce kendiniz yazın.
-2. Aynı numaralı bölüm klasörünü açın.
-3. Bölümde kalıcı bir kod değişikliği varsa `code/` klasöründeki dosyalarla kendi kodunuzu karşılaştırın.
-4. Sonra bir sonraki bölüme geçin.
+Bu paket kitapla birlikte kullanılır. 01–70 numaralı bölüm klasörleri öğrenme sırasını korur. Çoğu `code/` klasörü yalnız ilgili bölümde değişen dosyaları içerir; bunlar ayrı uygulamalar değildir. Kodları tek bir çalışma kopyasında birleştirin. `kod_ornekleri.md` içindeki tasarım karşılaştırmaları, HTTP örnekleri ve fonksiyon parçaları da bağımsız çalıştırılacak dosyalar değildir.
 
-`code/` klasörü kitaptaki her ara kod bloğunu içermez. **Yalnızca ilgili bölüm tamamlandığında eklenen veya değiştirilen kodun son hâlini** gösterir.
+## Tam projeyi çalıştırma
 
-Kod değişikliği olmayan bölümlerde yalnızca `README.md` bulunur. Bu bilinçli bir tercihtir; kitapta zaten açıklanan örnekleri burada tekrar etmiyoruz.
+70. bölümün `code/movie-api/` klasörü birleştirilmiş final uygulamasıdır. Terminali burada açın. Node.js 22.12 veya üzeri gerekir; doğrulama Node.js 24 ile yapıldı.
 
-## Klasör Yapısı
-
-Repository, kitabın sekiz ana kısmıyla aynı yapıyı kullanır ve bölüm klasörleri `01`–`70` numaralarıyla eşleşir.
-
-Örnek:
-
-```text
-07_Professional_API/
-└── 59_Joi_ile_Request_Verisi_Neden_Dogrulanir/
-    ├── README.md
-    └── code/
-        ├── package.json
-        └── src/
-            ├── controllers/
-            └── validation/
+```bash
+npm ci --ignore-scripts
+cp example.env .env
 ```
 
-Bu örnekte `code/`, 59. bölüm sonunda değişen dosyaların son hâlini gösterir.
+PowerShell kullanıyorsanız kopyalama komutu `Copy-Item example.env .env` olur. `.env` içindeki MongoDB adresini kendi deneme veritabanınızla değiştirin. Gizli değer içeren ayarlarda her değişken için ayrı bir değer üretin:
 
-## Çalıştırma Notu
+```bash
+node -e "console.log(require('node:crypto').randomBytes(48).toString('hex'))"
+npm start
+```
 
-Bir bölüm klasöründeki `code/` her zaman tek başına çalıştırılabilir tam proje değildir; çoğu bölüm yalnızca o bölümde değişen dosyaları içerir. Kitabın sonunda, 70. bölümde `code/movie-api/` altında final proje hâli bulunur.
+`example.env` istenen ana örnek dosyadır. `.env.example` aynı içeriğin önceki kullanım biçimiyle uyumlu kopyasıdır. İkisini birden yüklemeyin; yalnız birini `.env` adıyla kopyalayın. Örnek dosyalar gerçek şifre içermez. Bir bölümde yalnız değişen dosyalar varsa o bölümün `example.env` dosyasını çalışma projenizin `package.json` dosyasının yanında kullanın.
 
-Gerçek `.env` dosyaları ve `node_modules` repository'ye eklenmez. Gerekli yerlerde `.env.example` kullanılır.
+## Kontrol
 
-## 67. Bölüm — Postman kontrol kopyası
+Depo kökünde `node tools/dogrula.mjs`, bölüm sayısını, JavaScript sözdizimini, tam projelerin importlarını ve örnek ortam ayarlarını denetler. Final proje klasöründe `npm test`, otomatik olarak ayrı ve geçici MongoDB replica set oluşturur; sizin MongoDB adresinizi kullanmaz. İlk testte MongoDB test ikilisi indirilir; internet erişimi gerekir. Bu test bağımlılıklarını canlı ortama yüklemek için kullanmayın; canlı kurulumda `npm ci --ignore-scripts --omit=dev` kullanılır.
 
-Kitapta birlikte oluşturulan Collection ve yerel Environment'ın örnek JSON dosyaları, `08_Test_Documentation_Deployment/67_Postman_Collection_Environment_ve_Tests_ile_API_Nasil_Kontrol_Edilir/postman/` klasöründedir. Bunlar **opsiyoneldir**; okuyucu önce testleri kitapla kurabilir. **Yalnızca ayrı test veritabanında kullanın** (POST/PATCH/DELETE veriyi değiştirir).
+Test kapsamı ve dış hizmet sınırları için `UYUMLULUK_RAPORU.md` dosyasına bakın.

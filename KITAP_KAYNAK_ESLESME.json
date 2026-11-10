@@ -1,0 +1,422 @@
+[
+  {
+    "number": 1,
+    "manuscript": "Node.js-Backend-Book-1-main/01_Web_Foundations/01_Bir_Web_Uygulamasi_Nasil_Calisir.md",
+    "sha256": "b8b1e57c6ef221ed960830260e0b818fb7f4d9bb886b04f62a31f8fc243e5311",
+    "code_blocks": 0
+  },
+  {
+    "number": 2,
+    "manuscript": "Node.js-Backend-Book-1-main/01_Web_Foundations/02_Neden_Backende_Ihtiyac_Duyduk.md",
+    "sha256": "aab7557d66578777fe16f984e8c0a753837a5a7d74644bc80114691d2f6408fb",
+    "code_blocks": 0
+  },
+  {
+    "number": 3,
+    "manuscript": "Node.js-Backend-Book-1-main/01_Web_Foundations/03_HTTP_Ile_Ilk_Yolculuk.md",
+    "sha256": "3b2ff35de8f373a8a5f3fd6d4ffb53a9e241488717ba0fab1df64cd55cf4b8c6",
+    "code_blocks": 0
+  },
+  {
+    "number": 4,
+    "manuscript": "Node.js-Backend-Book-1-main/01_Web_Foundations/04_Request_ve_Response.md",
+    "sha256": "d091719fb59d0c8d11819e1e53fbd16a6763b8c6412264dd6f0ad9162bbe9e66",
+    "code_blocks": 1
+  },
+  {
+    "number": 5,
+    "manuscript": "Node.js-Backend-Book-1-main/01_Web_Foundations/05_Request_Yapisi.md",
+    "sha256": "f30da1d0f4f13712b32fdbd8a3e63d7494208db837bb3034324f4998e9119be8",
+    "code_blocks": 0
+  },
+  {
+    "number": 6,
+    "manuscript": "Node.js-Backend-Book-1-main/01_Web_Foundations/06_Sunucu_Requesti_Nasil_Isler.md",
+    "sha256": "f9bee83fc0827ed75588edc8d4ce2551b6fe316b7f7b3a9648a4a999f7b63c8c",
+    "code_blocks": 0
+  },
+  {
+    "number": 7,
+    "manuscript": "Node.js-Backend-Book-1-main/01_Web_Foundations/07_Response_Yapisi.md",
+    "sha256": "38bc0a83ad208aa0aa102251b186ea2c5bb5cbf5a54bd5bd8e17e809849fe402",
+    "code_blocks": 2
+  },
+  {
+    "number": 8,
+    "manuscript": "Node.js-Backend-Book-1-main/02_NodeJS/08_JavaScript_Sunucu_Tarafinda_Nasil_Calisir.md",
+    "sha256": "a366cf8820f0dbe5d0b8e9f53826de78a2fe329601b35a64f250e3e4c73c3d07",
+    "code_blocks": 19
+  },
+  {
+    "number": 9,
+    "manuscript": "Node.js-Backend-Book-1-main/02_NodeJS/09_NodeJS_ile_Ilk_Programimizi_Calistirmak.md",
+    "sha256": "8fcbedfd657ceb0bad51bac05b3850633d60e017bfa34e448901848954b48939",
+    "code_blocks": 36
+  },
+  {
+    "number": 10,
+    "manuscript": "Node.js-Backend-Book-1-main/02_NodeJS/10_NPM_ve_PackageJSON_ile_Projeyi_Yonetmek.md",
+    "sha256": "dbca88e3c4ace03568589c2f4fbb305ff6319f8b397febe77ee5788c5b9d3acd",
+    "code_blocks": 43
+  },
+  {
+    "number": 11,
+    "manuscript": "Node.js-Backend-Book-1-main/02_NodeJS/11_Moduller_ile_Kodu_Dosyalara_Ayirmak.md",
+    "sha256": "d59227cd2d9d5832abaf3a91719703dd1bcf95f3453fade58c8e699c8d22d39d",
+    "code_blocks": 49
+  },
+  {
+    "number": 12,
+    "manuscript": "Node.js-Backend-Book-1-main/03_Express/12_Express_ile_Tanisma.md",
+    "sha256": "27a3e5d94f4d77dd23e110b5739bd10427596d244b8d6e225736fe6f894eefc6",
+    "code_blocks": 19
+  },
+  {
+    "number": 13,
+    "manuscript": "Node.js-Backend-Book-1-main/03_Express/13_Expressi_Projemize_Eklemek.md",
+    "sha256": "e2870e8575e1503123f3711dec6b70cb1f0dc31786cd4fd8b162dfa6b4248355",
+    "code_blocks": 34
+  },
+  {
+    "number": 14,
+    "manuscript": "Node.js-Backend-Book-1-main/03_Express/14_Express_Uygulamasinin_Temeli.md",
+    "sha256": "875192ecb8e46738e8b83222f57399e54fb27eb47743780f535b57d460d40b74",
+    "code_blocks": 75
+  },
+  {
+    "number": 15,
+    "manuscript": "Node.js-Backend-Book-1-main/03_Express/15_Route_ile_Yeni_Yollar_Acmak.md",
+    "sha256": "50454f05d1dd6b818cc62a9d9f80a64ae4dcc89fe07f891cfaec546a06b0ea62",
+    "code_blocks": 54
+  },
+  {
+    "number": 16,
+    "manuscript": "Node.js-Backend-Book-1-main/03_Express/16_HTTP_Yontemleriyle_Farkli_Islemler.md",
+    "sha256": "2cd173652ed21a74372e3dff736e1918dccfcfea17ee33aabc8c984462b4de54",
+    "code_blocks": 53
+  },
+  {
+    "number": 17,
+    "manuscript": "Node.js-Backend-Book-1-main/03_Express/17_Postman_ile_Request_Gondermek.md",
+    "sha256": "56ce45672ca1cb9238a430e39a55a3998eb135bb7baf65d8c1aa0ef4559abb9b",
+    "code_blocks": 97
+  },
+  {
+    "number": 18,
+    "manuscript": "Node.js-Backend-Book-1-main/03_Express/18_Request_Body_ile_JSON_Verisi_Gondermek.md",
+    "sha256": "95bc5971685396597e2e1fdba1e4b1253c98f6826094a75650c10c398ec70d19",
+    "code_blocks": 122
+  },
+  {
+    "number": 19,
+    "manuscript": "Node.js-Backend-Book-1-main/03_Express/19_Middleware_ile_Request_Akisini_Yonetmek.md",
+    "sha256": "2d310ed8e94e50e94b63ba252d2d43826919ac9e686a09baff9a5fce8823a573",
+    "code_blocks": 73
+  },
+  {
+    "number": 20,
+    "manuscript": "Node.js-Backend-Book-1-main/04_MongoDB/20_Veriyi_Nerede_Saklayacagiz.md",
+    "sha256": "6c47dc26f38a4f66bac3bebc4be81b3fb0bf346a1a37ad911f2ca169f46b1abe",
+    "code_blocks": 44
+  },
+  {
+    "number": 21,
+    "manuscript": "Node.js-Backend-Book-1-main/04_MongoDB/21_SQL_ve_NoSQL_Arasindaki_Fark_Nedir.md",
+    "sha256": "c73b9e1f4e600aa33a35dacc3afff1828e11ecf6a45d9766aec8ffd475371b89",
+    "code_blocks": 72
+  },
+  {
+    "number": 22,
+    "manuscript": "Node.js-Backend-Book-1-main/04_MongoDB/22_MongoDB_Belgeleri_Hangi_Veri_Bicimini_Kullanir.md",
+    "sha256": "34c5f227df18a3f92ab073d5590ddd4b5f171153841eb5c36b146b7c49cadc34",
+    "code_blocks": 32
+  },
+  {
+    "number": 23,
+    "manuscript": "Node.js-Backend-Book-1-main/04_MongoDB/23_MongoDBde_Collection_Nedir.md",
+    "sha256": "3baa8bf19349ab294697316795854f4009ece17a5ad476369e0c4ac5d5662d23",
+    "code_blocks": 61
+  },
+  {
+    "number": 24,
+    "manuscript": "Node.js-Backend-Book-1-main/04_MongoDB/24_MongoDBde_Document_Nedir.md",
+    "sha256": "5f672221add217c597c2ba4ece39476d75bd5fb94171fec9910b30707c3beb38",
+    "code_blocks": 89
+  },
+  {
+    "number": 25,
+    "manuscript": "Node.js-Backend-Book-1-main/04_MongoDB/25_MongoDB_Bir_Documenti_Digerinden_Nasil_Ayirir_.md",
+    "sha256": "9b4488c00b4b925c4a2cadccaa9b183167ef82d4287003d03bf9cfe3df73eac0",
+    "code_blocks": 47
+  },
+  {
+    "number": 26,
+    "manuscript": "Node.js-Backend-Book-1-main/04_MongoDB/26_ObjectId_Nedir_ve_Neden_Boyle_Gorunur.md",
+    "sha256": "ccc7d5509655b90f999cec866aecbcc01a09e38110c465464294196ad2d63798",
+    "code_blocks": 88
+  },
+  {
+    "number": 27,
+    "manuscript": "Node.js-Backend-Book-1-main/04_MongoDB/27_MongoDByi_Nerede_Calistiracagiz.md",
+    "sha256": "708b9fd99f0386c42293dc70fba9ddf3d281396f6c3b68ad55b8a562d0db50d7",
+    "code_blocks": 115
+  },
+  {
+    "number": 28,
+    "manuscript": "Node.js-Backend-Book-1-main/04_MongoDB/28_MongoDB_Atlasta_Ilk_Veritabani_Ortamimizi_Nasil_Olusturacagiz.md",
+    "sha256": "4263f8dca646e4605f22e76de55c13150654f433d973a8ef3a4fe109ccac337c",
+    "code_blocks": 149
+  },
+  {
+    "number": 29,
+    "manuscript": "Node.js-Backend-Book-1-main/04_MongoDB/29_Backendimizi_MongoDB_Atlasa_Nasil_Baglayacagiz.md",
+    "sha256": "a1df187c837a4ea310dad0c373d2680c833e78613e01da561febaa9534f6ff2a",
+    "code_blocks": 143
+  },
+  {
+    "number": 30,
+    "manuscript": "Node.js-Backend-Book-1-main/05_Mongoose/30_Mongooseta_Schema_ve_Model_Neden_Var.md",
+    "sha256": "82e7dc9098eee173b85ce44061b986a5bc0aa958cebff3f36ab1b4d553903bc2",
+    "code_blocks": 119
+  },
+  {
+    "number": 31,
+    "manuscript": "Node.js-Backend-Book-1-main/05_Mongoose/31_Mongoose_Document_Nedir_ve_Ilk_Filmimizi_Nasil_Kaydederiz.md",
+    "sha256": "6c9c988fcd6c2c0a54debcee64fefb61bef65be3b31735846408c3ba81585f1f",
+    "code_blocks": 106
+  },
+  {
+    "number": 32,
+    "manuscript": "Node.js-Backend-Book-1-main/05_Mongoose/32_POST_Movies_Requestini_MongoDB_ye_Nasil_Kaydederiz.md",
+    "sha256": "fc19f91348d934c760204861607d55f2956d9a148279ba506cae0201215aa29e",
+    "code_blocks": 102
+  },
+  {
+    "number": 33,
+    "manuscript": "Node.js-Backend-Book-1-main/05_Mongoose/33_GET_Movies_ile_MongoDBdeki_Filmleri_Nasil_Getiririz.md",
+    "sha256": "ababae6b84762dc77fc8d93f04d76091c2c3cb75b686602dd3e8b20e4a110898",
+    "code_blocks": 90
+  },
+  {
+    "number": 34,
+    "manuscript": "Node.js-Backend-Book-1-main/05_Mongoose/34_GET_Movies_MovieId_ile_Tek_Bir_Filmi_Nasil_Getiririz.md",
+    "sha256": "efafb201a11b428d4ae7de2881a69b9316e255c17d724814cf67c50138a1d1ee",
+    "code_blocks": 149
+  },
+  {
+    "number": 35,
+    "manuscript": "Node.js-Backend-Book-1-main/05_Mongoose/35_PATCH_Movies_MovieId_ile_Bir_Filmi_Nasil_Guncelleriz.md",
+    "sha256": "5f53fd4c797672507f30940316788e5d9073478b47523b6175d60b101b15f7ba",
+    "code_blocks": 91
+  },
+  {
+    "number": 36,
+    "manuscript": "Node.js-Backend-Book-1-main/05_Mongoose/36_DELETE_Movies_MovieId_ile_Bir_Filmi_Nasil_Sileriz.md",
+    "sha256": "296695895f52b5df4a76d0969179150747ae4191be488e1fc0310b08506137b1",
+    "code_blocks": 154
+  },
+  {
+    "number": 37,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/37_indexjs_Buyudu_Express_Projemizi_Router_ve_Controller_ile_Nasil_Duzenleriz.md",
+    "sha256": "32e33ea5cdb3e5d43ecffcec82efed56f2d59a9c8ec1c82010cb92bef60307a5",
+    "code_blocks": 185
+  },
+  {
+    "number": 38,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/38_Express_Middleware_Proje_Mimarisi.md",
+    "sha256": "a2142a8cccfe30c5ca1baa9750a63ed0f1b95ea32fbb5e4c6b816970cd562573",
+    "code_blocks": 59
+  },
+  {
+    "number": 39,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/39_Express_Merkezi_Hata_Yonetimi_Nasil_Kurulur.md",
+    "sha256": "b55fb7a7f0df739c1c73d4b5bbf5a6847dee5569919437e73411cbf1192f221f",
+    "code_blocks": 161
+  },
+  {
+    "number": 40,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/40_Mongoose_Validation_ile_Gecersiz_Veriyi_Nasil_Engelleriz.md",
+    "sha256": "c8977f29b5e297e20199b3c5281a5577213275fbe18cf7d307caf648767723bd",
+    "code_blocks": 246
+  },
+  {
+    "number": 41,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/41_Mongoose_Strict_Nedir_Schemada_Olmayan_Alanlara_Ne_Olur.md",
+    "sha256": "8e5d2d104ccc5d90c8ccfc5dfa28d9413efea76898a83a6d4b783dbf45f77187",
+    "code_blocks": 38
+  },
+  {
+    "number": 42,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/42_Mongoose_Timestamps_createdAt_updatedAt_Nasil_Otomatik_Eklenir.md",
+    "sha256": "20247e76ad5e9edfdb15b9ff85a442a39dd82292eb2ae4ff23080ccb065fdc0f",
+    "code_blocks": 120
+  },
+  {
+    "number": 43,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/43_Mongoose___v_Nedir_versionKey_Ne_Ise_Yarar.md",
+    "sha256": "927f63011830a9488d1e394db60f8d4367299b32aec35b86c756765750db1ffa",
+    "code_blocks": 53
+  },
+  {
+    "number": 44,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/44_Mongoose_unique_Nedir_Ayni_Verinin_Tekrarini_Nasil_Engelleriz.md",
+    "sha256": "c56913246da5ae8cde537341c48efc67b8a809a4a546c8557131f3968a4d3ee4",
+    "code_blocks": 146
+  },
+  {
+    "number": 45,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/45_MongoDB_Indexler_Sorgulari_Nasil_Hizlandirir_COLLSCAN_IXSCAN.md",
+    "sha256": "d295f1064b73e7bb67004dd22e2b4ae977e30bee3b729ba65c7b7c0c94110e07",
+    "code_blocks": 121
+  },
+  {
+    "number": 46,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/46_MongoDB_sort_Nasil_Calisir_ve_Index_Siralamayi_Nasil_Hizlandirir.md",
+    "sha256": "d1cf69cfc124518629c127876de64b1755d8228a158675ee9f3a6812cf59a8b6",
+    "code_blocks": 85
+  },
+  {
+    "number": 47,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/47_Pagination_limit_skip_ile_Buyuk_Listeleri_Nasil_Boleriz.md",
+    "sha256": "a6c779f450a57e27a7b06e4ffce9457fd614b8458a9772c53d513d14dc1fa62c",
+    "code_blocks": 96
+  },
+  {
+    "number": 48,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/48_Query_Parameters_req_query_ile_page_limit_Nasil_Alinir.md",
+    "sha256": "443c044eed7315809f355777cdc1ab5f4ca9cbd952cef97bd531daacb447be25",
+    "code_blocks": 114
+  },
+  {
+    "number": 49,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/49_countDocuments_Toplam_Kayit_ve_Pagination_Bilgileri.md",
+    "sha256": "439e6551461a05760e95e014bea65e570b4215027c75661a731e5b9fa1427a9b",
+    "code_blocks": 83
+  },
+  {
+    "number": 50,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/50_Filtering_ile_Filmleri_Alanlarina_Gore_Nasil_Suzebiliriz.md",
+    "sha256": "634d4f9dbfd749ca75a7dd0b638a665a7454cd94b098645e2279f6b6abbc14ad",
+    "code_blocks": 97
+  },
+  {
+    "number": 51,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/51_Searching_ile_Film_Adina_Gore_Arama_Nasil_Yapilir.md",
+    "sha256": "1a87c00f77f873249073e9a3598270b8243c8cbd8633e27fdf814c0355c0fa5e",
+    "code_blocks": 63
+  },
+  {
+    "number": 52,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/52_Projection_select_lean_ile_Sorgu_Sonuclarini_Nasil_Sadelestiririz.md",
+    "sha256": "937604e7f4519d726c76a0724bb108bd035de37790b9c92bdf84830f74bb6b59",
+    "code_blocks": 83
+  },
+  {
+    "number": 53,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/53_Dogrudan_Update_Sorgulari_ve_MongoDB_Update_Operatorleri_Nasil_Kullanilir.md",
+    "sha256": "e290a8d9d90ed261594fe80974d755673617f0c57a1b56b91d01df32dc3396e5",
+    "code_blocks": 120
+  },
+  {
+    "number": 54,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/54_Mongoose_Query_Helpers_ve_Middleware_ile_Tekrarlanan_Sorgu_Islemleri_Nasil_Duzenlenir.md",
+    "sha256": "6bf3f1e2c8577e7b59cc4482ceb792f05680f1e90d4ecd82ccf0030730d1a2b9",
+    "code_blocks": 108
+  },
+  {
+    "number": 55,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/55_MongoDBde_Veriler_Gomulmeli_mi_Referansla_mi_Saklanmali.md",
+    "sha256": "4eddceb021654328842d8e4f53177c54dc014e245d68bc1fc7654953cd05249a",
+    "code_blocks": 113
+  },
+  {
+    "number": 56,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/56_Mongoose_populate_ile_Iliskili_Veriler_Nasil_Getirilir.md",
+    "sha256": "6578cb71e90bf8f65d7f6566ed6b31340828efdd7de82a296a2dec4a4d2dee04",
+    "code_blocks": 88
+  },
+  {
+    "number": 57,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/57_Mongoose_Virtuals_ile_Veritabaninda_Saklanmayan_Alanlar_Nasil_Olusturulur.md",
+    "sha256": "61596aa250be44d5dd589df398745f74833daa6e2307cd80258fa308a0551146",
+    "code_blocks": 109
+  },
+  {
+    "number": 58,
+    "manuscript": "Node.js-Backend-Book-1-main/06_Express_Architecture/58_Mongoose_Instance_ve_Static_Methods_ile_Document_ve_Model_Metotlari_Nasil_Tanimlanir.md",
+    "sha256": "6ea4f4bd1ed9578e31a9000ecaa2e7f052fa587e9421eb417d778b1fce66cf20",
+    "code_blocks": 117
+  },
+  {
+    "number": 59,
+    "manuscript": "Node.js-Backend-Book-1-main/07_Professional_API/59_Joi_ile_Request_Verisi_Neden_Dogrulanir.md",
+    "sha256": "3b9c8604f53834e524a57a4378e9e3fd0448398c0d00d900d87a7b4b416fb955",
+    "code_blocks": 133
+  },
+  {
+    "number": 60,
+    "manuscript": "Node.js-Backend-Book-1-main/07_Professional_API/60_Validation_Middleware_ile_Dogrulama_Controllerdan_Nasil_Ayrilir.md",
+    "sha256": "30fa2d381fdd75587336f0d10bd3dde74c0c9710e0d9301a24f39083670966be",
+    "code_blocks": 102
+  },
+  {
+    "number": 61,
+    "manuscript": "Node.js-Backend-Book-1-main/07_Professional_API/61_Tutarli_API_Response_Yapisi_ve_HTTP_Status_Kodlari_Nasil_Tasarlanir.md",
+    "sha256": "14e50f316f0743219c657f7666249baa97499f56c0d34282d3ee506f6ed6185a",
+    "code_blocks": 64
+  },
+  {
+    "number": 62,
+    "manuscript": "Node.js-Backend-Book-1-main/07_Professional_API/62_Service_Katmani_Neden_Kullanilir_ve_Is_Mantigi_Controllerdan_Nasil_Ayrilir.md",
+    "sha256": "aa965d2d4bc223f216feef079d916b36334a5917daab5181a7ff4dc1dc09e374",
+    "code_blocks": 51
+  },
+  {
+    "number": 63,
+    "manuscript": "Node.js-Backend-Book-1-main/07_Professional_API/63_Environment_Variables_ve_Merkezi_Config_Yapisi_Nasil_Kurulur.md",
+    "sha256": "0f811e4522717f86779b2d390852ae0c4e2128a9c600b4bc9557fbd9c9642095",
+    "code_blocks": 86
+  },
+  {
+    "number": 64,
+    "manuscript": "Node.js-Backend-Book-1-main/07_Professional_API/64_CORS_Nedir_ve_Tarayicidan_APIye_Erisim_Nasil_Yonetilir.md",
+    "sha256": "47124919035914a5e5d3063b561c02d7f91198dac24404dd48918491a6590b95",
+    "code_blocks": 74
+  },
+  {
+    "number": 65,
+    "manuscript": "Node.js-Backend-Book-1-main/07_Professional_API/65_Helmet_ve_Rate_Limiting_ile_API_Nasil_Korunur.md",
+    "sha256": "09124635ed632a36fd06775aa913c191f057a27d94d83ab04cd2e2df0ef2984d",
+    "code_blocks": 85
+  },
+  {
+    "number": 66,
+    "manuscript": "Node.js-Backend-Book-1-main/07_Professional_API/66_Logging_ile_Sunucuda_Gerceklesen_Islemler_ve_Hatalar_Nasil_Izlenir.md",
+    "sha256": "75f436741c8454035f8db5e746b44f97a194f0ed2cf57fba1b14392714ef1c58",
+    "code_blocks": 108
+  },
+  {
+    "number": 67,
+    "manuscript": "Node.js-Backend-Book-1-main/08_Test_Documentation_Deployment/67_Postman_Collection_Environment_ve_Tests_ile_API_Nasil_Kontrol_Edilir.md",
+    "sha256": "2225a327bb8be6d49d698c97920721de592616285bf76e7d89e6128119d7be70",
+    "code_blocks": 85
+  },
+  {
+    "number": 68,
+    "manuscript": "Node.js-Backend-Book-1-main/08_Test_Documentation_Deployment/68_Swagger_ve_OpenAPI_ile_API_Dokumantasyonu_Nasil_Hazirlanir.md",
+    "sha256": "9680ab54b70fffa6b8a62dbd5e500e3bf5cbad2e7e8ac6cc5c9fd910e15b7f06",
+    "code_blocks": 56
+  },
+  {
+    "number": 69,
+    "manuscript": "Node.js-Backend-Book-1-main/08_Test_Documentation_Deployment/69_Nodejs_API_Canli_Ortama_Nasil_Yayimlanir.md",
+    "sha256": "4f44387453fb0ac2444a0f0ec86af63fcd27fcb4515b413a13a04c7848d48259",
+    "code_blocks": 49
+  },
+  {
+    "number": 70,
+    "manuscript": "Node.js-Backend-Book-1-main/08_Test_Documentation_Deployment/70_Final_Proje_Movie_APIyi_Bastan_Sona_Nasil_Tamamlariz.md",
+    "sha256": "400f6fb869cf936497f1ace328f65292b304a58582d8d4d650c63633b4cfd53b",
+    "code_blocks": 40
+  }
+]

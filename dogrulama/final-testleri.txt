@@ -1,0 +1,18 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> movie-api@1.0.0 test
+> node --test --test-concurrency=1 test/*.test.js
+
+✔ Sağlık, CORS ve dokümantasyon (995.597759ms)
+✔ Geçersiz film ve kimlik reddedilir (27.329106ms)
+✔ Film oluşturma ve tekil indeks (30.970003ms)
+✔ Film listeleme, güncelleme ve filtre doğrulaması (44.780156ms)
+✔ Silme ve bulunamayan kayıt (19.965767ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2449.388115

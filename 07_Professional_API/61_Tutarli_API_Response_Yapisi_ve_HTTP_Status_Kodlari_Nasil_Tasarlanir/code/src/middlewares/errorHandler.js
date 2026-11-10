@@ -6,6 +6,9 @@ export const errorHandler = (
 ) => {
   console.error(error);
 
+  if (res.headersSent) return next(error);
+  if (error.name === "CastError") return res.status(400).json({ message: "Geçersiz kimlik veya alan değeri." });
+  if (error.type === "entity.parse.failed") return res.status(400).json({ message: "Geçersiz JSON." });
   if (error.code === 11000) {
     return res.status(409).json({
       message: "Bu kayıt zaten mevcut.",
