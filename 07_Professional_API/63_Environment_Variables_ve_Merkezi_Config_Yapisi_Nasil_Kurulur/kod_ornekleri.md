@@ -964,7 +964,7 @@ Config hatasını ilk gerçek Request geldiğinde veya MongoDB işlemi yapılır
 
 ---
 
-## `.env.example` Neden Gerekli?
+## `example.env` Neden Gerekli?
 
 Gerçek `.env` dosyamız Git'e gönderilmemelidir.
 
@@ -981,7 +981,7 @@ hangi environment variable'ları tanımlamalıyım?
 Bunun için proje köküne:
 
 ```text
-.env.example
+example.env
 ```
 
 ## Örnek 69
@@ -1004,7 +1004,7 @@ Sadece gereken key'lerin şablonu vardır.
 Kullanım akışı:
 
 ```text
-.env.example
+example.env
 ↓
 hangi key'ler gerekli gör
 ↓
@@ -1024,7 +1024,7 @@ gerçek değerler
 ↓
 Git'e gönderilmez
 
-.env.example
+example.env
 ↓
 şablon
 ↓
@@ -1120,7 +1120,7 @@ Bu karşılaştırmayı config yapısını kurduktan sonra yapmak daha anlamlıd
 ```text
 project
 ├── .env
-├── .env.example
+├── example.env
 └── src
     ├── config
     │   └── env.js
@@ -1202,7 +1202,7 @@ uygulama gerçekten bu ayara ihtiyaç duyuyor mu?
 7. `index.js` içinde sabit `3000` yerine `env.port` kullanın.
 8. `PORT=abc` ile config doğrulamasının uygulama başlarken hata verdiğini gözlemleyin.
 9. `MONGODB_URL` değerini boş bırakarak zorunlu config kontrolünü deneyin.
-10. `.env.example` oluşturup gerçek secret yazmadan gerekli variable adlarını ekleyin.
+10. `example.env` oluşturup gerçek secret yazmadan gerekli variable adlarını ekleyin.
 11. `constants` ile `config` arasındaki farkı kendi projenizden birer örnekle açıklayın.
 
 ---

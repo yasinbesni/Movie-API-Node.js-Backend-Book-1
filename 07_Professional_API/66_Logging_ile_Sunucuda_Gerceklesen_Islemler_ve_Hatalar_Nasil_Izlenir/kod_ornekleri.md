@@ -1410,7 +1410,7 @@ sonuçlandığını da izleyebiliriz.
 6. `GET /movies` gönderip `method`, `url`, `statusCode` ve `responseTime` alanlarını bulun.
 7. `req.log` değerinin `pino-http` tarafından eklendiğini doğrulayın.
 8. `errorHandler` içinde `req.log.error({ err: error }, ...)` kullanın.
-9. `.env` ve `.env.example` içine `LOG_LEVEL=info` ekleyin.
+9. `.env` ve `example.env` içine `LOG_LEVEL=info` ekleyin.
 10. `config/env.js` içinde değeri doğrulayıp `env.logLevel` oluşturun.
 11. `logger.js` içinde `level: env.logLevel` kullanın.
 12. Geçici olarak `LOG_LEVEL=error` deneyip `info` loglarının filtrelendiğini gözlemleyin; sonra tekrar `info` değerine dönün.

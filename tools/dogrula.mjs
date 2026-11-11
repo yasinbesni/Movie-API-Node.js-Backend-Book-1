@@ -24,7 +24,6 @@ for(const pkg of files.filter(f=>path.basename(f)==="package.json")){
  const example=path.join(project,"example.env");
  if(!fs.existsSync(example)){errors.push(`example.env eksik: ${project}`);continue;}
  const text=fs.readFileSync(example,"utf8");
- if(fs.existsSync(path.join(project,".env.example")) && text!==fs.readFileSync(path.join(project,".env.example"),"utf8"))errors.push(`Örnek env kopyaları farklı: ${project}`);
  for(const file of sourceFiles){
   const src=fs.readFileSync(file,"utf8");
   for(const match of src.matchAll(/(?:from\s*|import\s*)["'](\.[^"']+)["']/g))if(!fs.existsSync(path.resolve(path.dirname(file),match[1])))errors.push(`Import eksik: ${path.relative(root,file)} -> ${match[1]}`);

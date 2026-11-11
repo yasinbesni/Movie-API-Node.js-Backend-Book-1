@@ -570,7 +570,7 @@ Burada:
 
 anlamına gelir.
 
-`.env.example` dosyamızı da güncelleyelim:
+`example.env` dosyamızı da güncelleyelim:
 
 ```env
 MONGODB_URL=your_mongodb_connection_string
@@ -1191,7 +1191,7 @@ Bu bağlantı 63. bölümde kurduğumuz config yapısının neden değerli oldu�
 
 1. `helmet` ve `express-rate-limit` paketlerini kurun.
 2. `app.use(helmet())` ekleyin ve Response Headers bölümündeki değişikliği gözlemleyin.
-3. `.env` ve `.env.example` dosyalarına `RATE_LIMIT_WINDOW_MS` ve `RATE_LIMIT_LIMIT` ekleyin.
+3. `.env` ve `example.env` dosyalarına `RATE_LIMIT_WINDOW_MS` ve `RATE_LIMIT_LIMIT` ekleyin.
 4. Bu değerleri `env.js` içinde pozitif tam sayı olarak doğrulayın.
 5. `src/middlewares/rateLimiter.js` dosyasını oluşturun.
 6. Limit aşıldığında `429` ve `{ message }` biçiminde Response dönmesini sağlayın.

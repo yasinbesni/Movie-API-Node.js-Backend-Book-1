@@ -22,7 +22,7 @@ node -e "console.log(require('node:crypto').randomBytes(48).toString('hex'))"
 npm start
 ```
 
-`example.env` istenen ana örnek dosyadır. `.env.example` aynı içeriğin önceki kullanım biçimiyle uyumlu kopyasıdır. İkisini birden yüklemeyin; yalnız birini `.env` adıyla kopyalayın. Örnek dosyalar gerçek şifre içermez. Bir bölümde yalnız değişen dosyalar varsa o bölümün `example.env` dosyasını çalışma projenizin `package.json` dosyasının yanında kullanın.
+Tek örnek ortam dosyası `example.env` dosyasıdır. Kendi ayarlarınız için bu dosyayı `.env` adıyla kopyalayın. Örnek dosyalar gerçek şifre içermez. Bir bölümde yalnız değişen dosyalar varsa o bölümün `example.env` dosyasını çalışma projenizin `package.json` dosyasının yanında kullanın.
 
 ## Kontrol
 

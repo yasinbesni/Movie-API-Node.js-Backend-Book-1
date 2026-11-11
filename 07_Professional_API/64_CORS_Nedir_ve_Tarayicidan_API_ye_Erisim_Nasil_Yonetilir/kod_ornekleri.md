@@ -364,7 +364,7 @@ CORS_ORIGIN=http://localhost:5173
 
 kullanabiliriz.
 
-`.env.example` dosyasına da gerçek secret içermeden:
+`example.env` dosyasına da gerçek secret içermeden:
 
 ```env
 MONGODB_URL=your_mongodb_connection_string
@@ -909,7 +909,7 @@ Application-level Middleware için uygun bir sorumluluktur.
 ## Bölüm Sonu Uygulaması
 
 1. `npm install cors` komutuyla paketi ekleyin.
-2. `.env` ve `.env.example` dosyalarına `CORS_ORIGIN` ekleyin.
+2. `.env` ve `example.env` dosyalarına `CORS_ORIGIN` ekleyin.
 3. `env.js` içinde `corsOrigin` config değerini tanımlayın.
 4. `server.js` içinde `cors({ origin: env.corsOrigin })` Middleware'ini ekleyin.
 5. Postman'de Response Headers altında `Access-Control-Allow-Origin` değerini gözlemleyin.

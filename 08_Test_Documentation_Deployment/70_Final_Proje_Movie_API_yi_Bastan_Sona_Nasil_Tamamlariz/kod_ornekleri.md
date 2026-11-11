@@ -62,7 +62,7 @@ npm install
 
 ## Örnek 5
 
-sonra `.env.example` dosyasına bakıp kendi `.env` dosyasını hazırlayacak.
+sonra `example.env` dosyasına bakıp kendi `.env` dosyasını hazırlayacak.
 
 Ardından:
 
@@ -335,7 +335,7 @@ Git tarafından takip edilmemeli.
 Ama:
 
 ```text
-.env.example
+example.env
 ```
 
 ## Örnek 25
@@ -585,7 +585,7 @@ Aşağıdaki kutuları gerçekten tek tek kontrol edin:
 [ ] npm install temiz kurulumda çalışıyor
 [ ] npm start server'ı başlatıyor
 [ ] .env Git'e eklenmiyor
-[ ] .env.example güncel
+[ ] example.env güncel
 [ ] /health 200 dönüyor
 [ ] CRUD endpoint'leri çalışıyor
 [ ] pagination / filter / search çalışıyor

@@ -20,7 +20,7 @@ Node.js, Express, MongoDB ve Mongoose ile geliştirilen REST API projesi.
 npm install
 ```
 
-`.env.example` dosyasını referans alarak kendi `.env` dosyanızı oluşturun.
+`example.env` dosyasını referans alarak kendi `.env` dosyanızı oluşturun.
 
 Gerekli ayarlar:
 

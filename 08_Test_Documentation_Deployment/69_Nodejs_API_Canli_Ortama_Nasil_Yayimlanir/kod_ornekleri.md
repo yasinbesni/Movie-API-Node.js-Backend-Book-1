@@ -717,7 +717,7 @@ Bunları anlayabiliyorsak başka bir provider'a geçmek daha kolay olur.
 
 1. `package.json` içinde `start` script'ini doğrulayın.
 2. `npm start` ile uygulamayı lokal ortamda başlatın.
-3. `.env` dosyasının Git'e gitmediğini ve `.env.example` dosyasının güncel olduğunu kontrol edin.
+3. `.env` dosyasının Git'e gitmediğini ve `example.env` dosyasının güncel olduğunu kontrol edin.
 4. `/health` endpoint'ini ekleyip lokal ortamda `200` döndüğünü görün.
 5. Render'da repository'yi bağlayıp Web Service oluşturun.
 6. Start Command olarak `npm start` kullanın.
