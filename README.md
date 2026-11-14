@@ -6,6 +6,10 @@ Resmî depo: https://github.com/yasinbesni/Movie-API-Node.js-Backend-Book-1
 
 Bu paket kitapla birlikte kullanılır. 01–70 numaralı bölüm klasörleri öğrenme sırasını korur. Çoğu `code/` klasörü yalnız ilgili bölümde değişen dosyaları içerir; bunlar ayrı uygulamalar değildir. Kodları tek bir çalışma kopyasında birleştirin. `kod_ornekleri.md` içindeki tasarım karşılaştırmaları, HTTP örnekleri ve fonksiyon parçaları da bağımsız çalıştırılacak dosyalar değildir.
 
+## Terminal komutları için yardım
+
+Bulunduğunuz klasörü kontrol etme, klasörler arasında geçiş yapma veya dosyalarla çalışma komutlarına ihtiyaç duyarsanız depo kökündeki **[TERMINAL_KOMUTLARI.md](TERMINAL_KOMUTLARI.md)** rehberine bakın. Rehber; Bash/Zsh, Windows PowerShell ve Komut İstemi karşılıklarının yanı sıra Node.js, npm, Git ve temel HTTP isteği örneklerini içerir.
+
 ## Tam projeyi çalıştırma
 
 70. bölümün `code/movie-api/` klasörü birleştirilmiş final uygulamasıdır. Terminali burada açın. Node.js 22.12 veya üzeri gerekir; doğrulama Node.js 24 ile yapıldı.
